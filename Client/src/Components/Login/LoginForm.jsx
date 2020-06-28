@@ -56,7 +56,7 @@ const LoginForm = ({ handleChange }) => {
                      <p>or login with your social account</p>
                   </div>
 
-                  <a href="/auth/google" className="btn-google" title="Login With Google">
+                  <a href="http://localhost:5000/auth/google" className="btn-google" title="Login With Google">
                      <div className="btn-content">
                         <div className="logo">
                            <img
@@ -69,7 +69,7 @@ const LoginForm = ({ handleChange }) => {
                      </div>
                   </a>
 
-                  <a href="/auth/facebook" className="btn-fb" title="Login With Facebook">
+                  <a href="http://localhost:5000/auth/facebook" className="btn-fb" title="Login With Facebook">
                      <div className="btn-content">
                         <div className="logo">
                            <FacebookIcon fontSize="inherit" />

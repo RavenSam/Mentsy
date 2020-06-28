@@ -5,7 +5,7 @@ import { Facebook as FacebookIcon, ArrowBackIos as ArrowBackIosIcon } from "@mat
 
 import "./Signup.css"
 
-const SignupForm = ({ handleChange }) => {
+const SignupForm = ({ handleChange}) => {
    return (
       <div id="Signup">
          <Link title="Go Back" to="/" className="arrowBack">
@@ -28,11 +28,11 @@ const SignupForm = ({ handleChange }) => {
                </div>
 
                <div className="socialBtn">
-                  <a href="/auth/facebook" title="Sign Up With Facebook" className="fb s-btn">
+                  <a href="http://localhost:5000/auth/facebook" title="Sign Up With Facebook" className="fb s-btn">
                      <FacebookIcon fontSize="inherit" />
                   </a>
 
-                  <a href="/auth/google" className="gg s-btn" title="Sign Up With Google">
+                  <a href="http://localhost:5000/auth/google" className="gg s-btn" title="Sign Up With Google">
                      <img
                         className="google-icon"
                         src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"

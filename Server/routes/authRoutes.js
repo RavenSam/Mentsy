@@ -19,9 +19,7 @@ router.get(
  * @description   Google auth redirect
  * @route    GET   /auth/google/redirect
  */
-router.get("/google/redirect", passport.authenticate("google", { failureRedirect: "/" }), (req, res) => {
-   res.redirect("/dashboard/")
-})
+router.get("/google/redirect", passport.authenticate("google",{ failureRedirect: "/", successRedirect: `${process.env.CLIENT_DOMAIN}/dashboard` }))
 
 /**   *****************************************************************************
  * @provider    Facebook
@@ -42,7 +40,7 @@ router.get(
  */
 router.get(
    "/facebook/redirect",
-   passport.authenticate("facebook", { failureRedirect: "/", successRedirect: "/dashboard" })
+   passport.authenticate("facebook", { failureRedirect: "/", successRedirect: `${process.env.CLIENT_DOMAIN}/dashboard` })
 )
 
 /**   *****************************************************************************
@@ -51,7 +49,7 @@ router.get(
  */
 router.get("/logout", (req, res) => {
    req.logout()
-   res.redirect("/")
+   res.redirect(`${process.env.CLIENT_DOMAIN}/`)
 })
 
 module.exports = router

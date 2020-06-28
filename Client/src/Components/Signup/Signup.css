@@ -1,5 +1,3 @@
-
-
 #Signup {
    display: flex;
    justify-content: center;
@@ -9,109 +7,42 @@
    color: #333;
 }
 
-
-#Signup .btn-google,#Signup .btn-fb {
-    height: 40px;
+#Signup .btn-google,
+#Signup .btn-fb {
+   height: 40px;
 }
 
-#Signup .btn-google{
-	background:#eee;
+#Signup .btn-google {
+   background: #eee;
 }
 
 .btn-content {
-    height: 100%;
+   height: 100%;
 }
 
-
-.socialBtn{
-    display:flex;
-    align-items :center;
-    justify-content: space-around;
-    margin:1rem 0;
+.socialBtn {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 1rem 0;
 }
-
 
 .s-btn {
-    
-    color: #2a59be;
-    border: 1px solid #d8d8d8;
-    border-radius: 25px;
-    transition:  border-color 0.218s;
-    
+   color: #2a59be;
+   border: 1px solid #d8d8d8;
+   border-radius: 25px;
+   transition: border-color 0.218s;
 }
 
-.s-btn:hover{
-    border-color:var(--primary);
-    
+.s-btn:hover {
+   border-color: var(--primary);
 }
 
-.fb{
-    font-size:1.5rem;
-    padding: .5rem 3rem .2rem 3rem;
+.fb {
+   font-size: 1.5rem;
+   padding: 0.5rem 3rem 0.2rem 3rem;
 }
 
-.gg{
-    padding: .5rem 3rem ;
+.gg {
+   padding: 0.5rem 3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
