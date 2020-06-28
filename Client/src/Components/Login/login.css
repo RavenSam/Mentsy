@@ -35,6 +35,7 @@
    cursor: pointer;
    padding: 1.3rem;
    color: var(--primary);
+   z-index:1;
 }
 
 .greeting {
@@ -213,6 +214,18 @@ hr {
 .reminder a {
    color: var(--primary);
 }
+
+
+
+@media (max-width: 960px) {
+   .container {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 100vh;
+}
+}
+
 
 @media (max-width: 768px) {
    .sm-none {
